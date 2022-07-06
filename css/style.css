@@ -5,24 +5,31 @@
 .flex-container{
     display: flex;
 }
+.half-width{
+    width: 33%;
+    padding-left: 2%;
+}
 .button {
-    font-weight: 900;
-    font-size: 12px;
+    font-weight: 600;
+    font-size: 15px;
     line-height: 28px;
     color: #fff!important;
     text-transform: uppercase;
     letter-spacing: 1px;
-    border-radius: 10px;
-    padding: 8px 20px;
+    border-radius: 5px;
+    padding: 11px 25px;
     background: #4b00c7;
     border: none;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
     cursor: pointer;
     transition: 300ms all cubic-bezier(.4,0,.2,1);
 }
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+/* CSS START HERE */
+
 .header-are{
     background: linear-gradient(rgba(3, 3, 3, 0.527), rgba(10, 10, 10, 0.596)), url("https://www.aljazeera.com/wp-content/uploads/2022/05/000_32AN4UX.jpg?resize=1200%2C630");
     width: 100%;
@@ -46,4 +53,95 @@ body{
 .header-content p {
     padding: 16px 0px;
     font-size: 20px;
+    line-height: 30px;
+    width: 800px;
+    margin: auto;
+}
+
+
+
+/* DONATE ARE CSS HERE */
+.donate-are{
+   text-align: center;
+   background-color: #fff;
+   padding: 50px 0px;
+}
+.donate-are-title h1{
+    font-size: 40px;
+    color: #121212;
+    text-transform: uppercase;
+}
+.donate-are-title p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.donate-amount ul{
+    margin-top: 20px;
+    margin-bottom: 34px;
+}
+.donate-amount ul li {
+    display: inline-block;
+    padding: 11px;
+    font-size: 30px;
+    background: #4b00c7;
+    margin-right: 15px;
+    border-radius: 5px;
+    color: #FFF;
+}
+.donate-amount ul li:nth-child(3){
+    border: 2px solid #ff5959;
+    background-color: #ff595944;
+    color:#121212;
+}
+.donate-amount input {
+    display: block;
+    margin: auto;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    width: 400px;
+    text-align: center;
+}
+.donate-plan-title{
+    text-align: center;
+}
+.donate-plan-title h1{
+    font-size: 40px;
+    color: #121212;
+    text-transform: uppercase;
+}
+.donate-plan-title p{
+    padding: 16px 0px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    width: 642px;
+    margin: auto;
+}
+.dontate-plan-table{
+    margin: 20px;
+}
+.plan-1  {
+    background: #edf5f6;
+    padding: 40px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.plan-2  {
+    background: #ffeeee;
+    padding: 40px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.plan-3  {
+    background: #fff4d6;
+    padding: 40px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.plan-table-content h3 {
+
+margin: 16px 0px;
+}
+.plan-table-content p {
+
 }
