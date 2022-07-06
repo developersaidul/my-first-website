@@ -20,9 +20,7 @@
     padding: 11px 25px;
     background: #4b00c7;
     border: none;
-    margin-bottom: 20px;
     cursor: pointer;
-    transition: 300ms all cubic-bezier(.4,0,.2,1);
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -31,7 +29,7 @@ body{
 /* CSS START HERE */
 
 .header-are{
-    background: linear-gradient(rgba(3, 3, 3, 0.527), rgba(10, 10, 10, 0.596)), url("https://www.aljazeera.com/wp-content/uploads/2022/05/000_32AN4UX.jpg?resize=1200%2C630");
+    background: linear-gradient(rgba(82, 82, 82, 0.527), rgba(10, 10, 10, 0.596)), url("https://www.aljazeera.com/wp-content/uploads/2022/05/000_32AN4UX.jpg?resize=1200%2C630");
     width: 100%;
     height: 500px;
     padding-top: 100px;
@@ -58,8 +56,6 @@ body{
     margin: auto;
 }
 
-
-
 /* DONATE ARE CSS HERE */
 .donate-are{
    text-align: center;
@@ -73,7 +69,7 @@ body{
 }
 .donate-are-title p{
     font-size: 18px;
-    line-height: 30px;
+    line-height: 25px;
 }
 .donate-amount ul{
     margin-top: 20px;
@@ -112,7 +108,7 @@ body{
 .donate-plan-title p{
     padding: 16px 0px;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 26px;
     text-align: center;
     width: 642px;
     margin: auto;
@@ -125,23 +121,87 @@ body{
     padding: 40px;
     border-radius: 5px;
     margin: 10px;
+    border: 1px solid #4b00c7;
+    transition: .3s;
+    cursor: pointer;
 }
+
 .plan-2  {
     background: #ffeeee;
     padding: 40px;
     border-radius: 5px;
     margin: 10px;
+    border: 1px solid #4b00c7;
+    transition: .3s;
+    cursor: pointer;
 }
 .plan-3  {
     background: #fff4d6;
     padding: 40px;
     border-radius: 5px;
     margin: 10px;
+    border: 1px solid #4b00c7;
+    transition: .3s;
+    cursor: pointer;
+}
+.plan-1:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.plan-2:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.plan-3:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .plan-table-content h3 {
-
 margin: 16px 0px;
 }
-.plan-table-content p {
 
+/* NEWSLETTER ARE CSS HERE */
+.newlater-area{
+   margin-top: 100px;
+}
+.newslatter-title h1{
+    text-align: center;
+    font-size: 40px;
+    color: #121212;
+    text-transform: uppercase;
+}
+.newlater-area{
+    margin: 100px 0px;
+}
+.newslatter-title p{
+    padding: 16px 0px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    width: 642px;
+    margin: auto;
+}
+.newslatter-content{
+    width: 750px;
+    margin: auto;
+    background-color: #4b00c73b;
+    padding: 116px 125px;
+    text-align: center;
+    border-radius: 10px;
+}
+.newslatter-content input{
+height: 48px;
+width: 400px;
+border-radius: 4px;
+border: none;
+padding: 2px 10px;
+}
+
+.footer-content{
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #0b0d17;
+}
+.footer-content h1{
+    color:#e04f51
+}
+.footer-content p{
+    color:#fff;
 }
